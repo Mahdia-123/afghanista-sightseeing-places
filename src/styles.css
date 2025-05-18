@@ -86,7 +86,7 @@ footer a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  margin: 10px 60px;
+  grid-gap: 65px;
 }
 footer h3 {
   padding: 0 50px;
@@ -112,5 +112,8 @@ footer h3 {
     font-size: 10px;
     padding: 10px 15px;
     letter-spacing: 2px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
