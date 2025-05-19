@@ -3,13 +3,32 @@ body {
   background: rgb(22, 22, 53);
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px;
 }
+section.secondary {
+  background: #f7f4f4;
+}
+.text-center {
+  text-align: center;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body {
+  padding: 30px;
+}
+.grid-3-colums {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../photos/Most-Beautiful-Places-in-Afghanistan-featured.jpg");
@@ -51,6 +70,7 @@ header a {
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 .grid {
   display: grid;
@@ -60,9 +80,16 @@ header a {
   grid-gap: 60px;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
+}
+
+.card-header {
+  grid-template-columns: 1fr 1fr;
+}
 main {
   background-color: white;
-  padding: 100px 100px;
 }
 main h2 {
   font-weight: 700;
@@ -70,7 +97,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: rgb(22, 22, 53);
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -79,8 +106,24 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: rgb(22, 22, 53);
   margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: rgb(22, 22, 53);
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: rgb(22, 22, 53);
 }
 
 main p {
@@ -88,9 +131,10 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: rgb(22, 22, 53);
   opacity: 0.7;
 }
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -100,7 +144,6 @@ footer {
     url("../photos/Screen Shot 2025-05-18 at 3.57.30 PM.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 footer p {
   font-weight: 400;
@@ -128,10 +171,27 @@ footer a {
 .grid-3-columns-with-first-narrow {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 65px;
+  grid-gap: 64px;
 }
 footer h3 {
   padding: 0 50px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: rgb(22, 22, 53);
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
@@ -140,19 +200,23 @@ footer h3 {
   }
 
   header h1 {
-    font-size: 20px;
+    font-size: 48px;
   }
 
   header h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   header h3 {
     font-size: 12px;
   }
-  header a {
-    font-size: 10px;
-    padding: 10px 15px;
-    letter-spacing: 2px;
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
