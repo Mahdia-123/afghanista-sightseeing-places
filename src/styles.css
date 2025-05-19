@@ -148,8 +148,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(22, 22, 53, 0.9),
-      rgba(22, 22, 53, 0.9)
+      rgba(22, 22, 53, 0.8),
+      rgba(22, 22, 53, 0.8)
     ),
     url("../photos/istockphoto-1422798293-612x612.jpg");
   background-repeat: no-repeat;
