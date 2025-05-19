@@ -3,7 +3,7 @@ body {
   background: rgb(22, 22, 53);
 }
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 section {
@@ -33,7 +33,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../photos/Most-Beautiful-Places-in-Afghanistan-featured.jpg");
+    url("../photos/mosque.jpg");
   text-align: center;
   padding: 200px 0;
   line-height: 1.5;
@@ -151,7 +151,7 @@ footer {
       rgba(22, 22, 53, 0.9),
       rgba(22, 22, 53, 0.9)
     ),
-    url("../photos/Screen Shot 2025-05-18 at 3.57.30 PM.png");
+    url("../photos/istockphoto-1422798293-612x612.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
