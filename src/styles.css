@@ -16,7 +16,9 @@ section.secondary {
 }
 .text-center {
   text-align: center;
+  margin-bottom: 20px;
 }
+
 .card {
   background: white;
   margin: 30px 0;
@@ -92,6 +94,9 @@ header a {
 .embed {
   width: 100%;
   aspect-ratio: 13/9;
+}
+.instagram-embed {
+  margin: 30px 0;
 }
 main {
   background-color: white;
