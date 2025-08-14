@@ -75,6 +75,10 @@ header a {
   color: rgb(22, 22, 53);
   display: inline-block;
 }
+header a:hover {
+  color: rgb(193, 130, 29);
+  font-weight: bold;
+}
 .img-responsive {
   width: 100%;
   display: block;
